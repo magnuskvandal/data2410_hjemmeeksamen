@@ -290,7 +290,7 @@ def threeWayHandshake(args):
     # ThreeWayHandshake sin serverkode:
     if args.server:
         flagNr = 12                                     # Syn og ack satt. 1 1 0 0 blir 12
-        serversocket = socket(AF_INET, SOCK_DGRAM)      # Oppretter UDP socket (server)      
+        serversocket = socket(AF_INET, SOCK_DGRAM)      # Oppretter UDP socket (server)
         try:
             serversocket.bind((args.ip, args.port))     # Prøver å binde socketen til den gitte IP-adressen og portnummeret
         except OSError as e:
