@@ -1,4 +1,4 @@
-# Hjemmeeksamen i DATA2410 Nettverk og skytjenester, vår 2024
+# Hjemmeeksamen i DATA2410 Nettverk og skytjenester våren 2024
 Dette er min implementasjon av et enkelt filoverføringsprogram som benytter DATA2410 Reliable Transport Protocol (DRTP). Protokollen er implementert på toppen av UDP og sikrer pålitelig og ordnet overføring av data. Eksamenoppgaven finnes her: https://github.com/safiqul/DRTP-v25 (samme oppgave som i 2024)
 
 ## Hvordan bruke application.py
